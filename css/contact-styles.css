@@ -1,0 +1,35 @@
+/**  Start Contact Page Styles **/
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 25px 0px;
+}
+
+.contact-info {
+    border-top: 2px solid #404040;
+    text-align: center;
+}
+
+.contact-info::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.info-section {
+    width: 50%;
+    height: 225px;
+    float: left;
+}
+
+.info-border {
+    border-left: 1px solid #707070;
+    height: 100%;
+    width: 100%;
+}
+
+.info-text {
+    padding: 10px 0px;
+    margin: 0px;
+}
+/** End Contact Page Styles **/
